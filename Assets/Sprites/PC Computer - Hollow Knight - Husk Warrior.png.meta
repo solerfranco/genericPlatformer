@@ -1,0 +1,1418 @@
+fileFormatVersion: 2
+guid: 468ccc2c660efcf4597fb0242818ed0c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -48329849918121756
+    second: PC Computer - Hollow Knight - Husk Warrior_0
+  - first:
+      213: -8142716704281911124
+    second: PC Computer - Hollow Knight - Husk Warrior_1
+  - first:
+      213: 9002366709386402468
+    second: PC Computer - Hollow Knight - Husk Warrior_2
+  - first:
+      213: 7452375158678912657
+    second: PC Computer - Hollow Knight - Husk Warrior_3
+  - first:
+      213: 820639911096767514
+    second: PC Computer - Hollow Knight - Husk Warrior_4
+  - first:
+      213: -183426897902948880
+    second: PC Computer - Hollow Knight - Husk Warrior_5
+  - first:
+      213: -8303274448160329775
+    second: PC Computer - Hollow Knight - Husk Warrior_8
+  - first:
+      213: -6634826101418227051
+    second: PC Computer - Hollow Knight - Husk Warrior_9
+  - first:
+      213: -124527079769774175
+    second: PC Computer - Hollow Knight - Husk Warrior_10
+  - first:
+      213: 7226764967718311006
+    second: PC Computer - Hollow Knight - Husk Warrior_11
+  - first:
+      213: 3938207917816134974
+    second: PC Computer - Hollow Knight - Husk Warrior_12
+  - first:
+      213: 1756390455850866481
+    second: PC Computer - Hollow Knight - Husk Warrior_13
+  - first:
+      213: 8022885131718254557
+    second: PC Computer - Hollow Knight - Husk Warrior_14
+  - first:
+      213: 4751308011634362616
+    second: PC Computer - Hollow Knight - Husk Warrior_15
+  - first:
+      213: 1177907803894099878
+    second: PC Computer - Hollow Knight - Husk Warrior_16
+  - first:
+      213: -3665615389193459682
+    second: PC Computer - Hollow Knight - Husk Warrior_17
+  - first:
+      213: -2632043976360259218
+    second: PC Computer - Hollow Knight - Husk Warrior_18
+  - first:
+      213: -7453494730964780954
+    second: PC Computer - Hollow Knight - Husk Warrior_19
+  - first:
+      213: -2090960906155054917
+    second: PC Computer - Hollow Knight - Husk Warrior_20
+  - first:
+      213: -3083101212607411395
+    second: PC Computer - Hollow Knight - Husk Warrior_21
+  - first:
+      213: -5725678465079082151
+    second: PC Computer - Hollow Knight - Husk Warrior_22
+  - first:
+      213: -8818639275423951751
+    second: PC Computer - Hollow Knight - Husk Warrior_23
+  - first:
+      213: -4687354742435154036
+    second: PC Computer - Hollow Knight - Husk Warrior_24
+  - first:
+      213: 278871098116783713
+    second: PC Computer - Hollow Knight - Husk Warrior_25
+  - first:
+      213: 4955483437084895948
+    second: PC Computer - Hollow Knight - Husk Warrior_26
+  - first:
+      213: -396684580601946555
+    second: PC Computer - Hollow Knight - Husk Warrior_27
+  - first:
+      213: -716812057437739097
+    second: PC Computer - Hollow Knight - Husk Warrior_28
+  - first:
+      213: -8734687129446774702
+    second: PC Computer - Hollow Knight - Husk Warrior_29
+  - first:
+      213: 4967749841155015950
+    second: PC Computer - Hollow Knight - Husk Warrior_30
+  - first:
+      213: 628548812369561921
+    second: PC Computer - Hollow Knight - Husk Warrior_31
+  - first:
+      213: 3689673395143668153
+    second: PC Computer - Hollow Knight - Husk Warrior_32
+  - first:
+      213: 7149801648097049120
+    second: PC Computer - Hollow Knight - Husk Warrior_33
+  - first:
+      213: -6130013753995575062
+    second: PC Computer - Hollow Knight - Husk Warrior_34
+  - first:
+      213: -5462914644025237174
+    second: PC Computer - Hollow Knight - Husk Warrior_35
+  - first:
+      213: -6729739685643966923
+    second: PC Computer - Hollow Knight - Husk Warrior_36
+  - first:
+      213: 5951985455380353297
+    second: PC Computer - Hollow Knight - Husk Warrior_37
+  - first:
+      213: -6098229806969765670
+    second: PC Computer - Hollow Knight - Husk Warrior_38
+  - first:
+      213: 4567259331515524339
+    second: PC Computer - Hollow Knight - Husk Warrior_39
+  - first:
+      213: -5163110157061573078
+    second: PC Computer - Hollow Knight - Husk Warrior_40
+  - first:
+      213: 4454647282848469580
+    second: PC Computer - Hollow Knight - Husk Warrior_41
+  - first:
+      213: 9169398015065764287
+    second: PC Computer - Hollow Knight - Husk Warrior_42
+  - first:
+      213: 6411250395886189039
+    second: PC Computer - Hollow Knight - Husk Warrior_43
+  - first:
+      213: 359828734358044624
+    second: PC Computer - Hollow Knight - Husk Warrior_44
+  - first:
+      213: -1910773850121703275
+    second: PC Computer - Hollow Knight - Husk Warrior_45
+  - first:
+      213: -1144410156494288538
+    second: PC Computer - Hollow Knight - Husk Warrior_46
+  - first:
+      213: -8845507536222868160
+    second: PC Computer - Hollow Knight - Husk Warrior_47
+  - first:
+      213: -6785359494550468613
+    second: PC Computer - Hollow Knight - Husk Warrior_48
+  - first:
+      213: 7431789683964252124
+    second: PC Computer - Hollow Knight - Husk Warrior_49
+  - first:
+      213: 1275318904871711379
+    second: PC Computer - Hollow Knight - Husk Warrior_50
+  - first:
+      213: -2164219624482683945
+    second: PC Computer - Hollow Knight - Husk Warrior_51
+  - first:
+      213: -3421984921465080308
+    second: PC Computer - Hollow Knight - Husk Warrior_52
+  - first:
+      213: -6590572102896865314
+    second: PC Computer - Hollow Knight - Husk Warrior_53
+  - first:
+      213: -5950644339340813262
+    second: PC Computer - Hollow Knight - Husk Warrior_54
+  - first:
+      213: -2193785034835003580
+    second: PC Computer - Hollow Knight - Husk Warrior_55
+  - first:
+      213: 230939832060740175
+    second: PC Computer - Hollow Knight - Husk Warrior_56
+  - first:
+      213: 3564728516206128623
+    second: PC Computer - Hollow Knight - Husk Warrior_57
+  - first:
+      213: 2927027223053738408
+    second: PC Computer - Hollow Knight - Husk Warrior_58
+  - first:
+      213: 6033986373371654964
+    second: PC Computer - Hollow Knight - Husk Warrior_59
+  - first:
+      213: -2886274472424529885
+    second: PC Computer - Hollow Knight - Husk Warrior_60
+  - first:
+      213: 8602847320399593762
+    second: PC Computer - Hollow Knight - Husk Warrior_61
+  - first:
+      213: -2642483208901828692
+    second: PC Computer - Hollow Knight - Husk Warrior_62
+  - first:
+      213: 5154255546805643801
+    second: PC Computer - Hollow Knight - Husk Warrior_63
+  - first:
+      213: -6599358624274239897
+    second: PC Computer - Hollow Knight - Husk Warrior_64
+  - first:
+      213: 6415777493687176359
+    second: PC Computer - Hollow Knight - Husk Warrior_65
+  - first:
+      213: 2067297007233706363
+    second: PC Computer - Hollow Knight - Husk Warrior_66
+  - first:
+      213: -986199093936794795
+    second: PC Computer - Hollow Knight - Husk Warrior_67
+  - first:
+      213: 6516574442879948829
+    second: PC Computer - Hollow Knight - Husk Warrior_68
+  - first:
+      213: 5885732675127044684
+    second: PC Computer - Hollow Knight - Husk Warrior_69
+  - first:
+      213: 92482871797546321
+    second: PC Computer - Hollow Knight - Husk Warrior_70
+  - first:
+      213: 8069204802309812594
+    second: PC Computer - Hollow Knight - Husk Warrior_71
+  - first:
+      213: -7606566231846641704
+    second: PC Computer - Hollow Knight - Husk Warrior_72
+  - first:
+      213: 4137790995044675421
+    second: PC Computer - Hollow Knight - Husk Warrior_73
+  - first:
+      213: 3810909740332212943
+    second: PC Computer - Hollow Knight - Husk Warrior_74
+  - first:
+      213: -9162369337512570305
+    second: PC Computer - Hollow Knight - Husk Warrior_75
+  - first:
+      213: 3128052398768228957
+    second: PC Computer - Hollow Knight - Husk Warrior_76
+  - first:
+      213: 3771935711299794294
+    second: PC Computer - Hollow Knight - Husk Warrior_77
+  - first:
+      213: -505850296943677779
+    second: PC Computer - Hollow Knight - Husk Warrior_78
+  - first:
+      213: 345130989511586821
+    second: PC Computer - Hollow Knight - Husk Warrior_79
+  - first:
+      213: -5357132880110476776
+    second: PC Computer - Hollow Knight - Husk Warrior_80
+  - first:
+      213: -8982591939683028411
+    second: PC Computer - Hollow Knight - Husk Warrior_81
+  - first:
+      213: -4246513725067221127
+    second: PC Computer - Hollow Knight - Husk Warrior_82
+  - first:
+      213: 1271383022448002818
+    second: PC Computer - Hollow Knight - Husk Warrior_83
+  - first:
+      213: 3849622050855970660
+    second: PC Computer - Hollow Knight - Husk Warrior_84
+  - first:
+      213: 7790005023656643115
+    second: PC Computer - Hollow Knight - Husk Warrior_85
+  - first:
+      213: -8386017494251841377
+    second: PC Computer - Hollow Knight - Husk Warrior_86
+  - first:
+      213: 1168400541510782911
+    second: PC Computer - Hollow Knight - Husk Warrior_87
+  - first:
+      213: -6547373704954449636
+    second: PC Computer - Hollow Knight - Husk Warrior_88
+  - first:
+      213: -3458908033383020775
+    second: PC Computer - Hollow Knight - Husk Warrior_89
+  - first:
+      213: 9168133273005081387
+    second: PC Computer - Hollow Knight - Husk Warrior_90
+  - first:
+      213: -389531413380405391
+    second: PC Computer - Hollow Knight - Husk Warrior_91
+  - first:
+      213: -4653716177480881521
+    second: PC Computer - Hollow Knight - Husk Warrior_92
+  - first:
+      213: -7312923695318756153
+    second: PC Computer - Hollow Knight - Husk Warrior_93
+  - first:
+      213: 7366258223879151675
+    second: PC Computer - Hollow Knight - Husk Warrior_94
+  - first:
+      213: -709754475886771576
+    second: PC Computer - Hollow Knight - Husk Warrior_95
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PC Computer - Hollow Knight - Husk Warrior_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1841
+        width: 164
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e8159fe14c445ff0800000000000000
+      internalID: -48329849918121756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hollow Knight - Husk Warrior_1
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 1841
+        width: 164
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca023a6ac424ffe80800000000000000
+      internalID: -8142716704281911124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hollow Knight - Husk Warrior_2
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 1841
+        width: 164
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aa57ca53d4deec70800000000000000
+      internalID: 9002366709386402468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hollow Knight - Husk Warrior_3
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 1841
+        width: 164
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19e7002f8b72c6760800000000000000
+      internalID: 7452375158678912657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hollow Knight - Husk Warrior_4
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 1841
+        width: 164
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a145e65b6af736b00800000000000000
+      internalID: 820639911096767514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hollow Knight - Husk Warrior_5
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 1841
+        width: 164
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fd2e3c4536547df0800000000000000
+      internalID: -183426897902948880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hollow Knight - Husk Warrior_8
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1690
+        width: 165
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1df63dcc1e7d4cc80800000000000000
+      internalID: -8303274448160329775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hollow Knight - Husk Warrior_9
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 1690
+        width: 165
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59a0a7640dc5ce3a0800000000000000
+      internalID: -6634826101418227051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hollow Knight - Husk Warrior_10
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 1690
+        width: 165
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a7e76dd747954ef0800000000000000
+      internalID: -124527079769774175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hollow Knight - Husk Warrior_11
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 1690
+        width: 165
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e545618f270aa4460800000000000000
+      internalID: 7226764967718311006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hollow Knight - Husk Warrior_12
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 1690
+        width: 165
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3dbf095c3357a630800000000000000
+      internalID: 3938207917816134974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hollow Knight - Husk Warrior_13
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 1690
+        width: 165
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13790e750d3ff5810800000000000000
+      internalID: 1756390455850866481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hollow Knight - Husk Warrior_14
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 1690
+        width: 165
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddf54dd2583075f60800000000000000
+      internalID: 8022885131718254557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hollow Knight - Husk Warrior_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1529
+        width: 166
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6afa44528e4c85010800000000000000
+      internalID: 1177907803894099878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hollow Knight - Husk Warrior_17
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 1537
+        width: 166
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e182beb893e112dc0800000000000000
+      internalID: -3665615389193459682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hollow Knight - Husk Warrior_24
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1408
+        width: 166
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c87f8e842bb23feb0800000000000000
+      internalID: -4687354742435154036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hollow Knight - Husk Warrior_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1223
+        width: 166
+        height: 166
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b17fb6776a543330800000000000000
+      internalID: 3689673395143668153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hollow Knight - Husk Warrior_33
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 1231
+        width: 166
+        height: 166
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02ab359b7b2393360800000000000000
+      internalID: 7149801648097049120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hollow Knight - Husk Warrior_40
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1046
+        width: 166
+        height: 166
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a263220eaa2f858b0800000000000000
+      internalID: -5163110157061573078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hollow Knight - Husk Warrior_41
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1051
+        width: 166
+        height: 166
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4297dd1a1612dd30800000000000000
+      internalID: 4454647282848469580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hollow Knight - Husk Warrior_48
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 890
+        width: 166
+        height: 166
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf7cef57d7f85d1a0800000000000000
+      internalID: -6785359494550468613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hollow Knight - Husk Warrior_49
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 883
+        width: 166
+        height: 166
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdf0a1e9755032760800000000000000
+      internalID: 7431789683964252124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hollow Knight - Husk Warrior_56
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 731
+        width: 166
+        height: 166
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f42087ebd86743300800000000000000
+      internalID: 230939832060740175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hollow Knight - Husk Warrior_57
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 726
+        width: 166
+        height: 166
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fedeb21e2b5787130800000000000000
+      internalID: 3564728516206128623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hollow Knight - Husk Warrior_64
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 544
+        width: 329
+        height: 179
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76e29becb4e5a64a0800000000000000
+      internalID: -6599358624274239897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hollow Knight - Husk Warrior_65
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 544
+        width: 329
+        height: 179
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ac8b2563ab690950800000000000000
+      internalID: 6415777493687176359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hollow Knight - Husk Warrior_66
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 544
+        width: 329
+        height: 179
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b79a461dca380bc10800000000000000
+      internalID: 2067297007233706363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hollow Knight - Husk Warrior_67
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 544
+        width: 329
+        height: 179
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 553d51036215052f0800000000000000
+      internalID: -986199093936794795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hollow Knight - Husk Warrior_72
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 362
+        width: 329
+        height: 179
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8df9c4e305c007690800000000000000
+      internalID: -7606566231846641704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hollow Knight - Husk Warrior_73
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 362
+        width: 329
+        height: 179
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5fa27eacf26c6930800000000000000
+      internalID: 4137790995044675421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hollow Knight - Husk Warrior_74
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 362
+        width: 329
+        height: 179
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc2e39fb73213e430800000000000000
+      internalID: 3810909740332212943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hollow Knight - Husk Warrior_75
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 362
+        width: 329
+        height: 179
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f32d1a0c1a9b8d080800000000000000
+      internalID: -9162369337512570305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hollow Knight - Husk Warrior_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 166
+        width: 166.375
+        height: 166
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81223726704a7a5b0800000000000000
+      internalID: -5357132880110476776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hollow Knight - Husk Warrior_81
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 166
+        width: 166.375
+        height: 166
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 542f7e0093c675380800000000000000
+      internalID: -8982591939683028411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hollow Knight - Husk Warrior_82
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 166
+        width: 166.375
+        height: 166
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9772c8b144a5115c0800000000000000
+      internalID: -4246513725067221127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hollow Knight - Husk Warrior_83
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 166
+        width: 166.375
+        height: 166
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 207c9727f1cd4a110800000000000000
+      internalID: 1271383022448002818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hollow Knight - Husk Warrior_84
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 166
+        width: 166.375
+        height: 166
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 467e7ccebda9c6530800000000000000
+      internalID: 3849622050855970660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hollow Knight - Husk Warrior_85
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 166
+        width: 166.375
+        height: 166
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2a0099bb48ab1c60800000000000000
+      internalID: 7790005023656643115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hollow Knight - Husk Warrior_86
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 166
+        width: 166.375
+        height: 166
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9858ee1581ee9b80800000000000000
+      internalID: -8386017494251841377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hollow Knight - Husk Warrior_87
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 166
+        width: 166.375
+        height: 166
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbfcf102a1ef63010800000000000000
+      internalID: 1168400541510782911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hollow Knight - Husk Warrior_88
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 166.375
+        height: 166
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c11f4780e4e0325a0800000000000000
+      internalID: -6547373704954449636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hollow Knight - Husk Warrior_89
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 0
+        width: 166.375
+        height: 166
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 917c57f387d7fffc0800000000000000
+      internalID: -3458908033383020775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hollow Knight - Husk Warrior_90
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 0
+        width: 166.375
+        height: 166
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2348ee03a0cb3f70800000000000000
+      internalID: 9168133273005081387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hollow Knight - Husk Warrior_91
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 0
+        width: 166.375
+        height: 166
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 177ea9c4e3b189af0800000000000000
+      internalID: -389531413380405391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hollow Knight - Husk Warrior_92
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 0
+        width: 166.375
+        height: 166
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8a63c30bcdaa6fb0800000000000000
+      internalID: -4653716177480881521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hollow Knight - Husk Warrior_93
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 0
+        width: 166.375
+        height: 166
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c41df605a6438a90800000000000000
+      internalID: -7312923695318756153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hollow Knight - Husk Warrior_94
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 0
+        width: 166.375
+        height: 166
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b30ed1693d43a3660800000000000000
+      internalID: 7366258223879151675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hollow Knight - Husk Warrior_95
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 0
+        width: 166.375
+        height: 166
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 882860b80127626f0800000000000000
+      internalID: -709754475886771576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
