@@ -44,6 +44,11 @@ public class PlayerController : MonoBehaviour
         playerActions.Player.Attack.performed += ctx => Attack();
     }
 
+    private void Start()
+    {
+        transform.position = GameMaster.instance.currentCheckpoint;
+    }
+
     private void Attack()
     {
         if (!attacking)
@@ -117,7 +122,8 @@ public class PlayerController : MonoBehaviour
         }
         rb.velocity = new Vector2(direction.x * speed, rb.velocity.y);
 
-        transform.position = new Vector3(Mathf.Clamp(transform.position.x, -21, 1000 /* CAMBIAR */), transform.position.y, transform.position.z);
+        transform.position = new Vector3(Mathf.Clamp(transform.position.x, -2, 1000 /* CAMBIAR */), transform.position.y, transform.position.z);
+        if(transform.position.y < -6f) SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
     private void OnEnable()
@@ -164,16 +170,17 @@ public class PlayerController : MonoBehaviour
     bool isGrounded()
     {
         float extraHeightText = 0.2f;
-        RaycastHit2D raycastHit = Physics2D.Raycast(box.bounds.center, Vector2.down, box.bounds.extents.y + extraHeightText, floorLayer);
+        RaycastHit2D raycastHit = Physics2D.Raycast(box.bounds.center - new Vector3(box.size.x / 2, 0, 0), Vector2.down, box.bounds.extents.y + extraHeightText, floorLayer);
         Color rayColor;
         if (raycastHit.collider != null)
         {
             rayColor = Color.green;
         } else
         {
+            raycastHit = Physics2D.Raycast(box.bounds.center + new Vector3(box.size.x / 2, 0, 0), Vector2.down, box.bounds.extents.y + extraHeightText, floorLayer);
             rayColor = Color.red;
         }
-        Debug.DrawRay(box.bounds.center, Vector2.down * (box.bounds.extents.y + extraHeightText), rayColor);
+        Debug.DrawRay(box.bounds.center - new Vector3(box.size.x / 2, 0, 0), Vector2.down * (box.bounds.extents.y + extraHeightText), rayColor);
         return raycastHit.collider != null;
     }
 

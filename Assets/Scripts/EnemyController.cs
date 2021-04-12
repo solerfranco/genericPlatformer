@@ -45,9 +45,14 @@ public class EnemyController : MonoBehaviour
         health--;
         if (health <= 0)
         {
-            ScoreSystem.instance.AddPoint(rewardPoints);
-            Destroy(gameObject);
+            Die();
         }
+    }
+
+    private void Die()
+    {
+        ScoreSystem.instance.AddPoint(rewardPoints);
+        Destroy(gameObject);
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -84,7 +89,7 @@ public class EnemyController : MonoBehaviour
         
             rb.velocity = new Vector2(dirX, rb.velocity.y);
         }
-
+        if (transform.position.y < -6f) Die();
     }
 
     bool thereIsWall()
