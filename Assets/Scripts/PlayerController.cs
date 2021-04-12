@@ -117,7 +117,7 @@ public class PlayerController : MonoBehaviour
         }
         rb.velocity = new Vector2(direction.x * speed, rb.velocity.y);
 
-        transform.position = new Vector3(Mathf.Clamp(transform.position.x, -21, 62), transform.position.y, transform.position.z);
+        transform.position = new Vector3(Mathf.Clamp(transform.position.x, -21, 1000 /* CAMBIAR */), transform.position.y, transform.position.z);
     }
 
     private void OnEnable()

@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 3437767475044433276}
   - component: {fileID: 3437767475044433277}
   - component: {fileID: 3437767475044433278}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: MobilePlatform
   m_TagString: Floor
   m_Icon: {fileID: 0}
