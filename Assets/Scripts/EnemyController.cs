@@ -72,6 +72,7 @@ public class EnemyController : MonoBehaviour
 
     private void FixedUpdate()
     {
+        if (transform.position.y < -6f) Die();
         if (freeze) return;
         if (thereIsWall()) right = -right;
         if (dirX < 0 != direction < 0)
@@ -89,7 +90,6 @@ public class EnemyController : MonoBehaviour
         
             rb.velocity = new Vector2(dirX, rb.velocity.y);
         }
-        if (transform.position.y < -6f) Die();
     }
 
     bool thereIsWall()

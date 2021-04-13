@@ -97,6 +97,7 @@ public class PlayerController : MonoBehaviour
 
     private void FixedUpdate()
     {
+        if (transform.position.y < -6f) SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         if (freeze) return;
         anim.SetFloat("speed", Mathf.Abs(rb.velocity.x));
 
@@ -123,7 +124,6 @@ public class PlayerController : MonoBehaviour
         rb.velocity = new Vector2(direction.x * speed, rb.velocity.y);
 
         transform.position = new Vector3(Mathf.Clamp(transform.position.x, -2, 1000 /* CAMBIAR */), transform.position.y, transform.position.z);
-        if(transform.position.y < -6f) SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
     private void OnEnable()
