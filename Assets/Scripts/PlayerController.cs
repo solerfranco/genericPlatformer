@@ -175,7 +175,7 @@ public class PlayerController : MonoBehaviour
     public void ReceiveDamage(Vector2 attackerPos)
     {
         StartCoroutine(GameMaster.instance.Flash(sprite, original));
-        StartCoroutine(GameMaster.instance.ScreenShake(1, 0.5f));
+        StartCoroutine(GameMaster.instance.ScreenShake(4, 0.2f));
         freeze = true;
         rb.velocity = new Vector2(0, 0);
 
