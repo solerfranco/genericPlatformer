@@ -2,32 +2,35 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyController : MonoBehaviour
+public class EnemyController : MonoBehaviour, IEnemy
 {
     private Rigidbody2D rb;
     private bool freeze;
     private SpriteRenderer sprite;
     private BoxCollider2D box;
     public LayerMask floorLayer;
+    public float hitImpulse;
 
     private float direction;
     private float dirX;
     public int health;
     public int rewardPoints;
     public float right;
-
-    private PlayerController player;
+    
+    public Material white;
+    private Material original;
 
     void Start()
     {
-        player = FindObjectOfType<PlayerController>();
         rb = GetComponent<Rigidbody2D>();
         box = GetComponent<BoxCollider2D>();
         sprite = GetComponent<SpriteRenderer>();
+        original = sprite.material;
     }
 
-    public void ReceiveDamage(Vector2 attackerPos)
+    public void TakeDamage(Vector2 attackerPos)
     {
+        StartCoroutine(GameMaster.instance.Flash(sprite, original));
         freeze = true;
         rb.velocity = new Vector2(0,0);
 
@@ -40,7 +43,7 @@ public class EnemyController : MonoBehaviour
         {
             dirX = 5;
         }
-        rb.AddForce(new Vector2(dirX, 5), ForceMode2D.Impulse);
+        rb.AddForce(new Vector2(dirX, 5 * hitImpulse), ForceMode2D.Impulse);
 
         health--;
         if (health <= 0)
@@ -82,7 +85,6 @@ public class EnemyController : MonoBehaviour
         }
         else
         {
-            //Vector2 orientation = new Vector2(player.transform.position.x - transform.position.x, 0).normalized;
             Vector2 orientation = new Vector2(right, 0).normalized;
 
             dirX = 2 * orientation.x;
@@ -95,10 +97,11 @@ public class EnemyController : MonoBehaviour
     bool thereIsWall()
     {
         float extraHeightText = 0.1f;
-        RaycastHit2D raycastHit = Physics2D.Raycast(box.bounds.center - (new Vector3(box.size.x / 2 + .01f, 0, 0)) * -right, new Vector2(right/5, 0), box.bounds.extents.x/10 + extraHeightText, floorLayer);
-        if(raycastHit.collider == null)
+        Vector3 origin = (box.bounds.center - (new Vector3(box.size.x * transform.localScale.x / 2 + .01f, 0, 0)) * -right);
+        RaycastHit2D raycastHit = Physics2D.Raycast(origin, new Vector2(right/5, 0), box.bounds.extents.x * transform.localScale.x / 20 + extraHeightText, floorLayer);
+        if (raycastHit.collider == null)
         {
-            raycastHit = Physics2D.Raycast(box.bounds.center - new Vector3(0, box.size.y / 2 + 0.01f, 0) - (new Vector3(box.size.x / 2, 0, 0)) * -right, Vector2.down, box.bounds.extents.y + extraHeightText, floorLayer);
+            raycastHit = Physics2D.Raycast(box.bounds.center - new Vector3(0, box.size.y * transform.localScale.y / 2 + 0.01f, 0) - (new Vector3(box.size.x * transform.localScale.x / 2, 0, 0)) * -right, Vector2.down, box.bounds.extents.y * transform.localScale.y + extraHeightText, floorLayer);
             return raycastHit.collider == null;
         }
         return raycastHit.collider != null;
@@ -106,7 +109,9 @@ public class EnemyController : MonoBehaviour
 
     void OnDrawGizmos()
     {
-
+        if (!box) return;
+        Vector3 origin = (box.bounds.center - (new Vector3(box.size.x / 2 + .01f, 0, 0)) * -right);
+        Gizmos.DrawRay(origin, new Vector2(right / 5, 0));
         Gizmos.color = Color.red;
     }
 }

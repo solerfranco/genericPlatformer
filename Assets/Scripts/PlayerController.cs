@@ -8,6 +8,7 @@ public class PlayerController : MonoBehaviour
 {
     private PlayerControls playerActions;
     private SpriteRenderer sprite;
+    private Material original;
     private Rigidbody2D rb;
     private BoxCollider2D box;
     private Animator anim;
@@ -30,6 +31,7 @@ public class PlayerController : MonoBehaviour
     void Awake()
     {
         sprite = GetComponent<SpriteRenderer>();
+        original = sprite.material;
         rb = GetComponent<Rigidbody2D>();
         box = GetComponent<BoxCollider2D>();
         anim = GetComponent<Animator>();
@@ -60,7 +62,7 @@ public class PlayerController : MonoBehaviour
             {
                 energy += 0.025f;
                 energySlider.fillAmount = energy;
-                enemy.GetComponent<EnemyController>().ReceiveDamage(transform.position);
+                enemy.GetComponent<IEnemy>().TakeDamage(transform.position);
                 if(attackPoint.localPosition.y < 0)
                 {
                     rb.velocity = new Vector2(rb.velocity.x, 0);
@@ -80,7 +82,7 @@ public class PlayerController : MonoBehaviour
 
     private void Jump()
     {
-        if (isGrounded())
+        if (IsGrounded())
         {
             rb.velocity = new Vector2(rb.velocity.x, 0);
             rb.AddForce(new Vector2(0, 13), ForceMode2D.Impulse);
@@ -111,12 +113,20 @@ public class PlayerController : MonoBehaviour
                 attackPoint.localPosition = new Vector2(0.75f * dirX.x, 0);
                 sprite.flipX = dirX.x == 1;
             }
+            else if(sprite.flipX)
+            {
+                attackPoint.localPosition = new Vector2(0.75f, 0);
+            }
+            else
+            {
+                attackPoint.localPosition = new Vector2(-0.75f, 0);
+            }
 
             if (direction.y > 0.5f)
             {
                 attackPoint.localPosition = new Vector2(0, 1);
             }
-            if (direction.y < -0.5f && jumping)
+            if (direction.y < -0.5f && !IsGrounded())
             {
                 attackPoint.localPosition = new Vector2(0, -1.25f);
             }
@@ -155,10 +165,17 @@ public class PlayerController : MonoBehaviour
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
+        if (collision.gameObject.CompareTag("Enemy"))
+        {
+            ReceiveDamage(collision.gameObject.transform.position);
+            Destroy(collision.gameObject);
+        }
     }
 
     public void ReceiveDamage(Vector2 attackerPos)
     {
+        StartCoroutine(GameMaster.instance.Flash(sprite, original));
+        StartCoroutine(GameMaster.instance.ScreenShake(1, 0.5f));
         freeze = true;
         rb.velocity = new Vector2(0, 0);
 
@@ -167,7 +184,7 @@ public class PlayerController : MonoBehaviour
         rb.AddForce(new Vector2(7 * orientation.x, 7), ForceMode2D.Impulse);
     }
 
-    bool isGrounded()
+    bool IsGrounded()
     {
         float extraHeightText = 0.2f;
         RaycastHit2D raycastHit = Physics2D.Raycast(box.bounds.center - new Vector3(box.size.x / 2, 0, 0), Vector2.down, box.bounds.extents.y + extraHeightText, floorLayer);

@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 2597106280577071456}
   - component: {fileID: 2597106280577071467}
   m_Layer: 8
-  m_Name: Enemy
+  m_Name: Cucarachon
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -30,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 2597106280577071457}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -6, y: -1, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -167,7 +167,7 @@ MonoBehaviour:
   floorLayer:
     serializedVersion: 2
     m_Bits: 1280
-  hitImpulse: 1
+  hitImpulse: 0.2
   health: 3
   rewardPoints: 15
   right: 1
