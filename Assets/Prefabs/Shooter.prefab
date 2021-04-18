@@ -159,6 +159,6 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 512
   bulletSpeed: 40
-  timer: 2
-  health: 3
+  timer: 1
+  health: 4
   rewardPoints: 10
