@@ -25,6 +25,7 @@ public class PlayerController : MonoBehaviour
     public float attackRange;
     public LayerMask enemyLayers;
     public bool checkpointOn;
+    public float downAttackImpulse;
 
     public float speed;
     private Vector2 direction;
@@ -67,7 +68,7 @@ public class PlayerController : MonoBehaviour
                 if(attackPoint.localPosition.y < 0)
                 {
                     rb.velocity = new Vector2(rb.velocity.x, 0);
-                    rb.AddForce(new Vector2(0, 13), ForceMode2D.Impulse);
+                    rb.AddForce(new Vector2(0, downAttackImpulse), ForceMode2D.Impulse);
                 }
             }
         }
