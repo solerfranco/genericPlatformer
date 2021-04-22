@@ -50,15 +50,20 @@ public class Tower : MonoBehaviour, IEnemy
     void Update()
     {
         direction = Mathf.Sign(player.transform.position.x - transform.position.x);
-        if (!ThereIsPlayer()) return;
+        if (!PlayerIsNear()) return;
         if (currentTimer > 0) currentTimer -= Time.deltaTime;
         else
         {
-            GameObject bullet = Instantiate(projectile, projectilePoint.position, Quaternion.identity, null);
-            bullet.GetComponent<Rigidbody2D>().AddForce(new Vector2(direction, 0) * 10 * bulletSpeed);
-            currentTimer = timer;
+            if (ThereIsPlayer())
+            {
+                GameObject bullet = Instantiate(projectile, projectilePoint.position, Quaternion.identity, null);
+                bullet.GetComponent<DistanceAttack>().speed = bulletSpeed * direction;
+                currentTimer = timer;
+            }
         }
     }
+
+    bool PlayerIsNear() => Vector2.Distance(transform.position, player.transform.position) < 10;
 
     bool ThereIsPlayer()
     {

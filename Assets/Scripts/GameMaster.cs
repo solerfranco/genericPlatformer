@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using Cinemachine;
+using UnityEngine.SceneManagement;
 
 public class GameMaster : MonoBehaviour
 {
@@ -18,6 +19,16 @@ public class GameMaster : MonoBehaviour
             DontDestroyOnLoad(instance);
         }
         else Destroy(gameObject);
+    }
+
+    void OnEnable()
+    {
+        SceneManager.sceneLoaded += OnSceneLoaded;
+    }
+
+    void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        cinemachineVirtualCamera = FindObjectOfType<CinemachineVirtualCamera>();
     }
 
     public IEnumerator Flash(SpriteRenderer sprite, Material original)

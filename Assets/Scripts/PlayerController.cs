@@ -24,6 +24,7 @@ public class PlayerController : MonoBehaviour
     public Transform attackPoint;
     public float attackRange;
     public LayerMask enemyLayers;
+    public bool checkpointOn;
 
     public float speed;
     private Vector2 direction;
@@ -48,7 +49,7 @@ public class PlayerController : MonoBehaviour
 
     private void Start()
     {
-        transform.position = GameMaster.instance.currentCheckpoint;
+        if(checkpointOn) transform.position = GameMaster.instance.currentCheckpoint;
     }
 
     private void Attack()
