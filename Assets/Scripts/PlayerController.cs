@@ -27,6 +27,7 @@ public class PlayerController : MonoBehaviour
     public bool checkpointOn;
     public float downAttackImpulse;
 
+    public float jumpForce;
     public float speed;
     private Vector2 direction;
 
@@ -87,7 +88,7 @@ public class PlayerController : MonoBehaviour
         if (IsGrounded())
         {
             rb.velocity = new Vector2(rb.velocity.x, 0);
-            rb.AddForce(new Vector2(0, 13), ForceMode2D.Impulse);
+            rb.AddForce(new Vector2(0, jumpForce), ForceMode2D.Impulse);
         }
     }
 
