@@ -168,6 +168,8 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1280
   hitImpulse: 1
+  speed: 2
   health: 3
   rewardPoints: 15
   right: 1
+  white: {fileID: 0}
