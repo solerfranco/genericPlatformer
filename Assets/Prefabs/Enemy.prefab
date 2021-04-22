@@ -168,7 +168,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1280
   hitImpulse: 1
-  speed: 2
+  speed: 1.5
   health: 3
   rewardPoints: 15
   right: 1
