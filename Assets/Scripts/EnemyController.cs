@@ -13,6 +13,7 @@ public class EnemyController : MonoBehaviour, IEnemy
 
     private float direction;
     private float dirX;
+    public float speed;
     public int health;
     public int rewardPoints;
     public float right;
@@ -90,7 +91,7 @@ public class EnemyController : MonoBehaviour, IEnemy
             dirX = 2 * orientation.x;
             sprite.flipX = orientation.x == 1;
         
-            rb.velocity = new Vector2(dirX, rb.velocity.y);
+            rb.velocity = new Vector2(dirX * speed, rb.velocity.y);
         }
     }
 
